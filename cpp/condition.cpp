@@ -35,6 +35,19 @@ int main(){
         if(score>600)
         {
             cout<<"恭喜您考上一本大学："<<endl;
+            if(score>700) //嵌套if
+            {
+                cout<<"您考入北京大学"<<endl;
+            }
+            else if (score>650)
+            {
+                cout<<"您考入清华大学"<<endl;
+            }
+            else
+            {
+                cout<<"您考入人民大学"<<endl;
+            }
+            
         }
         else if(score>500)  //第二个条件
         {
@@ -48,6 +61,9 @@ int main(){
         {
             cout<<"很遗憾未考上大学"<<endl;
         }
+    
+    //嵌套if语句
+
 
 
     return 0;
