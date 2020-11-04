@@ -23,7 +23,31 @@ int main(){
             cout<<"恭喜你考试一本大学"<<endl;
         }
     //多行if if else
-        
+        if(score>700)
+        {
+            cout<<"if"<<endl;
+        }
+        else
+        {
+            cout<<"else"<<endl;
+        }
+    //多条件if语句 if{}else if{}else if{}else
+        if(score>600)
+        {
+            cout<<"恭喜您考上一本大学："<<endl;
+        }
+        else if(score>500)  //第二个条件
+        {
+            cout<<"恭喜你考上二本大学"<<endl;
+        }
+        else if(score>400) //第三个条件
+        {
+           cout<<"恭喜你考上三本大学"<<endl;
+        }
+        else
+        {
+            cout<<"很遗憾未考上大学"<<endl;
+        }
 
 
     return 0;
